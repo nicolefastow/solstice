@@ -1,0 +1,275 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,700');
+
+/* CSS Document */
+/* The body style defines fonts */
+/* yellow fab511 pink ec5d94 blue 00a6a6 white f8ffe5 */
+
+/* Global */
+* {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    background-color:#D7E4F2 ;
+  }
+
+section{
+    padding: 5.8em 2em 0;
+  }
+
+.btn{
+    display: inline-block;
+    padding: .5em 1.5em;
+    border: solid 1px #090b08;  
+    text-decoration: none;
+    COLOR: black;
+    font-weight: bold;
+  }
+  
+/* nav bar */
+.topnav {
+    overflow: hidden;
+    background-color:#D7E4F2 ;
+    box-shadow: 0px 10px 7px -9px rgba(0,0,0,0.75);
+    position: fixed;
+    width: 100%;
+  }
+  
+.topnav div a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 10px;
+  }
+
+.nav-brand img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 25px;
+  }
+  
+.links{
+    margin-right: 5%;
+    float: right;
+    padding: 14px 0px;
+  }
+  
+.topnav a.active {
+    font-weight: bold;
+  }
+
+/* Hero Section */
+.hero {
+	display: block;
+	align-items: center;
+    background:#F0F6FF;
+    margin: auto;
+    }
+
+.hero-img img{
+    padding-top: 70px;
+    display: block;
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.hero-text{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 70px;
+        }
+    
+ /* Featured Section */
+#featured{
+    justify-content: center;
+}
+
+.flex-left{
+    margin-top: -40px;
+}
+#featured .flex-left h2{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+  }
+
+.text h3{
+    text-align: center;
+}
+
+.text p{
+    padding-bottom: 1em;
+    line-height: 1.4em;
+}
+
+.flex-right .image img{
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+}
+
+/*Collections Section*/
+#collections{
+    background-color:#F0F6FF ;
+    justify-content: center;
+}
+
+
+#collections .text{
+    text-align: center;    
+}
+
+#collections .text h2{
+    text-align: center;
+}
+#collections .text h3{
+    text-align: center;
+}
+#collections .text p{
+    text-align: center;
+}
+
+.img-gallery{
+  width: 80%;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#collections .img-gallery img{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Footer */
+
+footer p{
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*About Page*/
+
+#about-section{
+  display: block;
+	align-items: center;
+  background:#D7E4F2;
+  margin-bottom: 75px;
+  justify-content: center;
+}
+
+#about-section div h2{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#about-section div{
+  display: block;
+  justify-content: center;
+}
+
+.about-icon{
+  display: block;
+  margin: 30px 0;
+  justify-content: center;
+}
+
+.about-icon img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.about-icon p{
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#mission{
+  background-color: #F0F6FF;
+  padding-bottom: 100px;
+  justify-content: center;
+  display: block;
+}
+
+#mission .text{
+  margin: 0 auto;
+}
+
+#mission .text h2{
+  text-align: center;
+}
+
+#mission .text h3{
+  text-align: center;
+}
+
+#mission .text p{
+  text-align: center;
+}
+
+#mission img{
+  margin: 0 auto;
+  width: 300px;
+  display: block;
+}
+
+
+/*Contact Page*/
+
+#contact-form{
+    background-color: #F0F6FF;
+    padding-bottom: 100px;
+  }
+  
+  #contact-form div h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: -1px;
+    }
+  }
+  
+  #contact-form form p{
+    padding: 0 20px 10px 0;
+  }
+  
+  #contact-form form p label{
+    padding-right: 10px;
+  }
+  
+  form{
+    max-width: 400px;
+    margin: auto;
+    padding: 10px 30px;
+    background-color: #D7E4F2;
+    border-radius: 10px;
+  }
+  textarea{
+    margin-top: 10px;
+    width: 300px;
+  }
+  
+  #submit{
+    background-color: #F0F6FF;
+    font-size: 15px;
+  }
