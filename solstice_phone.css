@@ -256,6 +256,11 @@ footer p{
   #contact-form form p label{
     padding-right: 10px;
   }
+
+#name, #email{
+	display: block;
+	width: 90%;
+}
   
   form{
     max-width: 400px;
@@ -266,7 +271,7 @@ footer p{
   }
   textarea{
     margin-top: 10px;
-    width: 300px;
+    width: 250px;
   }
   
   #submit{
